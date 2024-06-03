@@ -8,4 +8,4 @@ install:
 webpack:
 	$(RUN) npx webpack --entry ./main.js --output-path build --devtool source-map
 
-.PHONY: install
+.PHONY: install webpack
